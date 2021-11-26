@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #B983FF;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    text-align: right;
+    padding: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    width: 40vw;
+    height: 50vh;
+    background-color: #94B3FD;
+    border-radius: 7px;
+}
+
+.span-col-4 {
+    grid-column: span 4 / auto;
+}
+
+.span-col-2 {
+    grid-column: span 2 / auto;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.itemDisplay {
+    background-color: #E5DCC3;
+}
+
+.itemEmpty {
+    background-color: #585752;
+}
+
+.itemSymbol {
+    background-color: #C7BEA2;
+}
+
+.itemNumber {
+    background-color: #9A9483;
+}
